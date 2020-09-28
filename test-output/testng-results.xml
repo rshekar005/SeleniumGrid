@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41904" started-at="2020-09-28T10:33:22Z" finished-at="2020-09-28T10:34:04Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="17048" started-at="2020-09-28T10:33:22Z" finished-at="2020-09-28T10:33:39Z">
+      <class name="Package1.TestA">
+        <test-method status="PASS" signature="init_remotedriver(java.lang.String)[pri:0, instance:Package1.TestA@548a9f61]" name="init_remotedriver" is-config="true" duration-ms="7931" started-at="2020-09-28T16:03:22Z" finished-at="2020-09-28T16:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_remotedriver -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:Package1.TestA@548a9f61]" name="testA" duration-ms="4133" started-at="2020-09-28T16:03:30Z" finished-at="2020-09-28T16:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Package1.TestA@548a9f61]" name="tearDown" is-config="true" duration-ms="4335" started-at="2020-09-28T16:03:34Z" finished-at="2020-09-28T16:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Package1.TestA -->
+      <class name="Package1.TestB">
+        <test-method status="PASS" signature="init_remotedriver(java.lang.String)[pri:0, instance:Package1.TestB@36d4b5c]" name="init_remotedriver" is-config="true" duration-ms="7655" started-at="2020-09-28T16:03:22Z" finished-at="2020-09-28T16:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_remotedriver -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:Package1.TestB@36d4b5c]" name="testB" duration-ms="5058" started-at="2020-09-28T16:03:30Z" finished-at="2020-09-28T16:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Package1.TestB@36d4b5c]" name="tearDown" is-config="true" duration-ms="4324" started-at="2020-09-28T16:03:35Z" finished-at="2020-09-28T16:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Package1.TestB -->
+      <class name="Package1.TestC">
+        <test-method status="PASS" signature="init_remotedriver(java.lang.String)[pri:0, instance:Package1.TestC@4f933fd1]" name="init_remotedriver" is-config="true" duration-ms="6651" started-at="2020-09-28T16:03:22Z" finished-at="2020-09-28T16:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_remotedriver -->
+        <test-method status="PASS" signature="testC()[pri:0, instance:Package1.TestC@4f933fd1]" name="testC" duration-ms="5215" started-at="2020-09-28T16:03:29Z" finished-at="2020-09-28T16:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Package1.TestC@4f933fd1]" name="tearDown" is-config="true" duration-ms="114" started-at="2020-09-28T16:03:34Z" finished-at="2020-09-28T16:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Package1.TestC -->
+    </test> <!-- Chrome -->
+    <test name="firefox" duration-ms="24843" started-at="2020-09-28T10:33:39Z" finished-at="2020-09-28T10:34:04Z">
+      <class name="Package1.TestA">
+        <test-method status="PASS" signature="init_remotedriver(java.lang.String)[pri:0, instance:Package1.TestA@1d057a39]" name="init_remotedriver" is-config="true" duration-ms="6178" started-at="2020-09-28T16:03:39Z" finished-at="2020-09-28T16:03:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_remotedriver -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:Package1.TestA@1d057a39]" name="testA" duration-ms="10603" started-at="2020-09-28T16:03:45Z" finished-at="2020-09-28T16:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Package1.TestA@1d057a39]" name="tearDown" is-config="true" duration-ms="7437" started-at="2020-09-28T16:03:56Z" finished-at="2020-09-28T16:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Package1.TestA -->
+      <class name="Package1.TestB">
+        <test-method status="PASS" signature="init_remotedriver(java.lang.String)[pri:0, instance:Package1.TestB@2b98378d]" name="init_remotedriver" is-config="true" duration-ms="9161" started-at="2020-09-28T16:03:39Z" finished-at="2020-09-28T16:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_remotedriver -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:Package1.TestB@2b98378d]" name="testB" duration-ms="9379" started-at="2020-09-28T16:03:48Z" finished-at="2020-09-28T16:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Package1.TestB@2b98378d]" name="tearDown" is-config="true" duration-ms="6119" started-at="2020-09-28T16:03:58Z" finished-at="2020-09-28T16:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Package1.TestB -->
+      <class name="Package1.TestC">
+        <test-method status="PASS" signature="init_remotedriver(java.lang.String)[pri:0, instance:Package1.TestC@475530b9]" name="init_remotedriver" is-config="true" duration-ms="10682" started-at="2020-09-28T16:03:39Z" finished-at="2020-09-28T16:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_remotedriver -->
+        <test-method status="PASS" signature="testC()[pri:0, instance:Package1.TestC@475530b9]" name="testC" duration-ms="11585" started-at="2020-09-28T16:03:50Z" finished-at="2020-09-28T16:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Package1.TestC@475530b9]" name="tearDown" is-config="true" duration-ms="2574" started-at="2020-09-28T16:04:01Z" finished-at="2020-09-28T16:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Package1.TestC -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

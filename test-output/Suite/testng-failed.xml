@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Package1.TestB">
+        <methods>
+          <include name="testB"/>
+        </methods>
+      </class> <!-- Package1.TestB -->
+      <class name="Package1.TestC">
+        <methods>
+          <include name="testC"/>
+        </methods>
+      </class> <!-- Package1.TestC -->
+      <class name="Package1.TestA">
+        <methods>
+          <include name="init_remotedriver"/>
+          <include name="init_remotedriver"/>
+          <include name="testA"/>
+        </methods>
+      </class> <!-- Package1.TestA -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Package1.TestB">
+        <methods>
+          <include name="testB"/>
+        </methods>
+      </class> <!-- Package1.TestB -->
+      <class name="Package1.TestC">
+        <methods>
+          <include name="testC"/>
+        </methods>
+      </class> <!-- Package1.TestC -->
+      <class name="Package1.TestA">
+        <methods>
+          <include name="init_remotedriver"/>
+          <include name="init_remotedriver"/>
+          <include name="testA"/>
+        </methods>
+      </class> <!-- Package1.TestA -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

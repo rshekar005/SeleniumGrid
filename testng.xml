@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="methods">
+<!-- To achieve cross browser testing -->
+  <test name="Chrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="Package1.TestA"/>
+      <class name="Package1.TestB"/>
+      <class name="Package1.TestC"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="firefox">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="Package1.TestA"/>
+      <class name="Package1.TestB"/>
+      <class name="Package1.TestC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
